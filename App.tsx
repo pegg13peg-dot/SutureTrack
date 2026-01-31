@@ -81,7 +81,7 @@ function App() {
         {activeTab === 'calculator' ? (
             <>
                 <div className="text-center mb-10 max-w-2xl mx-auto animate-fadeIn">
-                    <h2 className="text-3xl md:text-4xl font-bold text-brand-ink mb-4">Removal Date Calculator</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-brand-ink mb-4">Suture Removal Date Calculator</h2>
                     <p className="text-brand-dark/80">
                         Easily determine the recommended interval for stitch removal based on anatomical sites.
                     </p>
