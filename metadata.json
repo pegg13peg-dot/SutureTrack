@@ -1,0 +1,5 @@
+{
+  "name": "SutureTrack",
+  "description": "A medical utility app to calculate suture removal dates based on body site guidelines.",
+  "requestFramePermissions": []
+}

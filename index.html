@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SutureTrack - Removal Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Public Sans', sans-serif;
+        background-color: #f0f9ff;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "date-holidays": "https://esm.sh/date-holidays@3.23.11",
+    "@google/genai": "https://esm.sh/@google/genai@^1.39.0"
+  }
+}
+</script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            dark: '#0369a1',   // Medical Blue (Sky 700)
+            light: '#7dd3fc',  // Light Sky (Sky 300)
+            pale: '#f0f9ff',   // Sterile White (Sky 50)
+            orange: '#f97316', // Alert/Action Orange (Orange 500)
+            ink: '#0f172a',    // Deep Slate Text (Slate 900)
+            accent: '#e0f2fe'  // Highlight (Sky 100)
+          }
+        },
+        fontFamily: {
+          sans: ['Public Sans', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
